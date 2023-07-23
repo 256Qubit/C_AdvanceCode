@@ -1,0 +1,3 @@
+D:/3/advancecode/Initialization/cmake-build-debug/CMakeFiles/Initialization.dir
+D:/3/advancecode/Initialization/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/3/advancecode/Initialization/cmake-build-debug/CMakeFiles/rebuild_cache.dir
