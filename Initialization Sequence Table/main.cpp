@@ -18,5 +18,9 @@ void InitList(SqList &L){
 int main() {
     SqList L;//声明一个顺序表
     InitList(L);//初始化一个顺序表
+
+    for (int i = 0; i < MaxSize; ++i) {
+        printf("data[%d]=%d\n",i,L.data[i]);
+    }
     return 0;
 }
