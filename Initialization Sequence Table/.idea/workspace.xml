@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6994aa5d-5d96-4ef5-b8e5-b6cabdfcf586" name="默认变更列表" comment="" />
+    <list default="true" id="6994aa5d-5d96-4ef5-b8e5-b6cabdfcf586" name="默认变更列表" comment="Initialization sequence table 提交">
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +40,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Initialization" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Initialization_Sequence_Table" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Initialization_Sequence_Table" TARGET_NAME="Initialization_Sequence_Table" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Initialization_Sequence_Table" RUN_TARGET_NAME="Initialization_Sequence_Table">
@@ -66,10 +68,41 @@
       <option name="presentableId" value="Default" />
       <updated>1690098684588</updated>
       <workItem from="1690098685846" duration="20000" />
+      <workItem from="1690098734632" duration="352000" />
     </task>
+    <task id="LOCAL-00001" summary="Initialization sequence table 提交">
+      <created>1690098824280</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690098824280</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initialization sequence table 提交">
+      <created>1690099016668</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690099016668</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initialization sequence table 提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialization sequence table 提交" />
   </component>
 </project>
