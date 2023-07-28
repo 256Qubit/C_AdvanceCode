@@ -47,6 +47,13 @@ int main() {
 
     ListInsert(L,3,3);
 
+    int e=-1;
+    if(ListDelete(L,3,e)){
+        printf("已删除第%d个元素，删除元素值为%d\n",3,e,);
+    } else{
+        printf("位序i不合法，删除失败\n");
+    }
+
 //    for (int i = 0; i < MaxSize; ++i)
 //    for (int i = 0; i <L.length; ++i) {
 //        printf("data[%d]=%d\n",i,L.data[i]);
