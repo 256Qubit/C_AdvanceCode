@@ -28,7 +28,17 @@ bool ListInsert(SqList &L,int i,int e){
     L.length++;//长度加1
 
     return true;
-
+}
+bool ListDelete(SqList &L,int i,int &e){
+    if(i<1||i>L.length){//判断i的范围是否有效
+        return false;
+    }
+    e=L.data[i-1];//将被删除的元素赋值给e
+    for(int j=i;j<L.length;j--){//将第i位置后的元素前移
+        L.data[j-1]=L.data[i];
+    }
+    L.length--;//线性表长度减1
+    return true;
 }
 
 int main() {

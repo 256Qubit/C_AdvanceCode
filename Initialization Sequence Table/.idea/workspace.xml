@@ -42,6 +42,10 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
     <configuration name="Initialization_Sequence_Table" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Initialization_Sequence_Table" TARGET_NAME="Initialization_Sequence_Table" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Initialization_Sequence_Table" RUN_TARGET_NAME="Initialization_Sequence_Table">
@@ -65,7 +69,7 @@
       <updated>1690098684588</updated>
       <workItem from="1690098685846" duration="20000" />
       <workItem from="1690098734632" duration="578000" />
-      <workItem from="1690529290010" duration="309000" />
+      <workItem from="1690529290010" duration="1043000" />
     </task>
     <task id="LOCAL-00001" summary="Initialization sequence table 提交">
       <created>1690098824280</created>
@@ -95,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690529294218</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initialization sequence table 提交">
+      <created>1690529796984</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690529796984</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
