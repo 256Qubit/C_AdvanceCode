@@ -40,6 +40,17 @@ bool ListDelete(SqList &L,int i,int &e){
     L.length--;//线性表长度减1
     return true;
 }
+int GetElem(SqList L,int i){
+    return L.data[i-1];
+};
+
+int LocateElem(SqList L,int e){
+    for (int i=0;i<L.length;i++) {
+        if(L.data[i]==e){
+            return i+1;
+        }
+    }
+}
 
 int main() {
     SqList L;//声明一个顺序表
