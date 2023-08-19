@@ -34,6 +34,9 @@ bool ListDelete(SqlList &L,int i,int &e){
     L.length--;//线性表长度减1
     return true;
 }
+int GetElm(SqlList &L,int i){
+    return L.data[i-1];
+}
 int main() {
     SqlList L;//声明一个顺序表
     InitList(L);//初始化顺序表
@@ -44,5 +47,6 @@ int main() {
     } else{
         printf("位序不合法\n");
     }
+    GetElm(L,3);
     return 0;
 }
