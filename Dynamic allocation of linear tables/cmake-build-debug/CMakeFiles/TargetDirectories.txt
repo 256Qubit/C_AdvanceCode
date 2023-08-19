@@ -1,3 +1,0 @@
-D:/3/advancecode/Dynamic allocation of linear tables/cmake-build-debug/CMakeFiles/Dynamic_allocation_of_linear_tables.dir
-D:/3/advancecode/Dynamic allocation of linear tables/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/3/advancecode/Dynamic allocation of linear tables/cmake-build-debug/CMakeFiles/rebuild_cache.dir
