@@ -22,10 +22,14 @@ void IncreaseSize(SqlList &L,int len){
     L.MaxSize=L.MaxSize+len;//L的最大长度加len
     free(p);//释放原来的L空间
 }
+int GetElem(SqlList &L,int i){
+    return L.data[i-1];
+}
 
 int main() {
     SqlList L;
     InitList(L);
     IncreaseSize(L,5);
+    GetElem(L,3);
     return 0;
 }
