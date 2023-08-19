@@ -22,8 +22,16 @@ void IncreaseSize(SqlList &L,int len){
     L.MaxSize=L.MaxSize+len;//L的最大长度加len
     free(p);//释放原来的L空间
 }
-int GetElem(SqlList &L,int i){
+int GetElem(SqlList &L,int i){//按位查找
     return L.data[i-1];
+}
+int LocateElem(SqlList &L,int e){
+    for (int i = 0; i < L.length; ++i) {
+        if(L.data[i]==e){//逐一比较顺序表中的数据元素
+            return i+1;//
+        }
+    }
+    return 0;
 }
 
 int main() {
@@ -31,5 +39,10 @@ int main() {
     InitList(L);
     IncreaseSize(L,5);
     GetElem(L,3);
+    if(LocateElem(L,7)>=1||LocateElem(L,7)<=L.length){
+        printf("数据相同，查找成功");
+    } else{
+        printf("无相同数据元素");
+    }
     return 0;
 }
