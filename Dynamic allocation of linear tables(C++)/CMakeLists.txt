@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.19)
+project(Dynamic_allocation_of_linear_tables_C___)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(Dynamic_allocation_of_linear_tables_C___ main.cpp)
