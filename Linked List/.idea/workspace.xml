@@ -61,6 +61,7 @@
       <workItem from="1692621351130" duration="8000" />
       <workItem from="1692621380236" duration="1411000" />
       <workItem from="1692624182117" duration="1753000" />
+      <workItem from="1692626033244" duration="68000" />
     </task>
     <task id="LOCAL-00001" summary="Linked List 提交">
       <created>1692621945954</created>
@@ -104,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692625941743</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Linked List(LintInsert) 提交">
+      <created>1692626069582</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692626069582</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
