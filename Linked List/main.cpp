@@ -7,6 +7,20 @@ struct LNode{
     int data;
     struct LNode *next;//next指针表示指向下一个结点的指针
 };
+LNode *GetElem(LinkList L,int i){//按位查找
+    if(i<0){
+        return NULL;
+
+    }
+    LNode *p;//指针p指向当前扫描到的结点
+    int j=0;//当前p指向的是第几个结点
+    p=L;//L指针指向头结点，头结点是第0个结点，不储存数据
+    while (p!=NULL&&j<i){//循环找到第i个结点
+        p=p->next;
+        j++;
+    }
+    return p;
+}
 bool InitList(LinkList &L){
     L=(LNode*) malloc(sizeof(LNode));//分配一个头结点，并且将malloc的地址赋值给L
     if(L==NULL){//如果L为空，则证明内存不足，分配失败
@@ -43,14 +57,15 @@ bool LintInsert(LinkList &L,int i,int e){//指定插入操作
     if(i<1){
         return false;
     }
-    LNode *p;//指针p指向当前扫描到的结点
-    int j=0;//当前p指向的是第几个结点
-    p=L;//L指向头结点，头结点是第0个结点，不储存数据
-    while (p!=NULL&&j<i-1){//循环找到第i-1个结点(第i位)
-        p=p->next;
-        j++;
-    }
-    return LintNextInsert(p,e);
+    LNode *p= GetElem(L,i-1);//按位查找封装
+    return LintNextInsert(p,e);//后插操作封装
+//    LNode *p;//指针p指向当前扫描到的结点
+//    int j=0;//当前p指向的是第几个结点
+//    p=L;//L指向头结点，头结点是第0个结点，不储存数据
+//    while (p!=NULL&&j<i-1){//循环找到第i-1个结点(第i位)
+//        p=p->next;
+//        j++;
+//    }
 //    if(p==NULL){//如果P指针指向NULL，i值位序不合法
 //        return false;
 //    }
@@ -78,12 +93,14 @@ bool ListDelete(LinkList &L,int i,int &e){//删除指定位置的结点
     if(i<1){
         return false;
     }
-    LNode *p;//指针p指向当前扫描到的结点
-    int j=0;//当前p指向的是第几个结点
-    while (p!=NULL&&j<i-1){//循环找到第i-1个结点
-        p=p->next;
-        j++;
-    }
+    LNode *p= GetElem(L,i-1);
+//    LNode *p;//指针p指向当前扫描到的结点
+//    int j=0;//当前p指向的是第几个结点
+//    p=L;
+//    while (p!=NULL&&j<i-1){//循环找到第i-1个结点
+//        p=p->next;
+//        j++;
+//    }
     if(p==NULL){
         return false;
     }//i值不合法
@@ -107,7 +124,14 @@ bool DeleteNode(LNode *p){
     free(q);
     return true;
 }
-
+LNode * LocateElem(LinkList L,int e){//按值查找
+    LNode *p=L->next;
+    //从第一个结点开始查找数值为e的结点
+    while (p!=NULL&&p->data!=e){
+        p=p->next;
+    }
+    return p;//找到后返回结点指针，否则返回NULL
+}
 void test(){
     LinkList L;
     InitList(L);
