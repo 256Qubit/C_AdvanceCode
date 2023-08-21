@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8646ed48-8b7c-4863-8951-019be106f5a3" name="默认变更列表" comment="Linked List(LintInsert) 提交" />
+    <list default="true" id="8646ed48-8b7c-4863-8951-019be106f5a3" name="默认变更列表" comment="Linked List(LintInsert) 提交">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +64,7 @@
       <workItem from="1692621380236" duration="1411000" />
       <workItem from="1692624182117" duration="1753000" />
       <workItem from="1692626033244" duration="68000" />
-      <workItem from="1692630236619" duration="1056000" />
+      <workItem from="1692630236619" duration="1630000" />
     </task>
     <task id="LOCAL-00001" summary="Linked List 提交">
       <created>1692621945954</created>
@@ -127,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692631166586</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Linked List(LintInsert) 提交">
+      <created>1692631308434</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1692631308434</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Linked List(LintInsert) 提交">
+      <created>1692631597922</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692631597922</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
