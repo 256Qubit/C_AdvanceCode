@@ -101,7 +101,7 @@ bool DeleteNode(LNode *p){
         return false;
     }
     LNode *q=p->next;
-    p->data=q->data;
+    p->data=p->next->data;
     p->next=q->next;
     free(q);
     return true;
