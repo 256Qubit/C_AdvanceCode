@@ -25,7 +25,21 @@ bool Empty(LinkList L){
 //bool Empty(LinkList L){
 //    return (L->next==NULL);
 //}
-bool LintInsert(LinkList &L,int i,int e){
+bool LintNextInsert(LNode *p,int e){
+    if(p==NULL){
+        return false;
+    }
+    LNode *s=(LNode *) malloc(sizeof(LNode));
+    if(s==NULL){
+        return false;
+    }
+    s->data=e;//将s结点储存数据e
+    s->next=p->next;//s结点next指针指向p结点指向的结点
+    p->next=s;//p的next指针指向s结点
+    return true;
+
+}
+bool LintInsert(LinkList &L,int i,int e){//指定插入操作
     if(i<1){
         return false;
     }
@@ -36,15 +50,63 @@ bool LintInsert(LinkList &L,int i,int e){
         p=p->next;
         j++;
     }
-    if(p==NULL){//如果P指针指向NULL，i值位序不合法
+    return LintNextInsert(p,e);
+//    if(p==NULL){//如果P指针指向NULL，i值位序不合法
+//        return false;
+//    }
+//    LNode *s=(LNode*) malloc(sizeof(LNode));
+//    s->data=e;
+//    s->next=p->next;
+//    p->next=s;
+//    return true;
+}
+bool LintInsertPrior(LNode *p,int e){//前插操作
+    if(p=NULL){
         return false;
     }
-    LNode *s=(LNode*) malloc(sizeof(LNode));
-    s->data=e;
+    LNode *s=(LNode *) malloc(sizeof(LNode));
+    if(s==NULL){
+        return false;
+    }
     s->next=p->next;
-    p->next=s;
+    p->next=s;//将新结点连接到p之后
+    s->data=p->data;
+    p->data=e;
     return true;
 }
+bool ListDelete(LinkList &L,int i,int &e){//删除指定位置的结点
+    if(i<1){
+        return false;
+    }
+    LNode *p;//指针p指向当前扫描到的结点
+    int j=0;//当前p指向的是第几个结点
+    while (p!=NULL&&j<i-1){//循环找到第i-1个结点
+        p=p->next;
+        j++;
+    }
+    if(p==NULL){
+        return false;
+    }//i值不合法
+    if(p->next==NULL){
+        return false;//第i-1个结点之后已经无其他结点
+    }
+    LNode *q=p->next;//定义一个q结点指向p的next指针指向的结点（需要删除的结点）
+    e=q->data;//将q结点中的内容复制到e之中
+    p->next=q->next;//指向NULL
+    free(p);
+    return true;
+}
+bool DeleteNode(LNode *p){
+    if(p==NULL){
+        return false;
+    }
+    LNode *q=p->next;
+    p->data=q->data;
+    p->next=q->next;
+    free(q);
+    return true;
+}
+
 void test(){
     LinkList L;
     InitList(L);
