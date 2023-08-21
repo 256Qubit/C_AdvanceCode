@@ -21,7 +21,7 @@ LNode *GetElem(LinkList L,int i){//按位查找
     }
     return p;
 }
-bool InitList(LinkList &L){
+bool InitList(LinkList &L){//初始化单链表
     L=(LNode*) malloc(sizeof(LNode));//分配一个头结点，并且将malloc的地址赋值给L
     if(L==NULL){//如果L为空，则证明内存不足，分配失败
         return false;
@@ -29,7 +29,7 @@ bool InitList(LinkList &L){
     L->next=NULL;//头结点之后暂时没有头结点
     return true;
 }
-bool Empty(LinkList L){
+bool Empty(LinkList L){//判断初始化后的单链表是否为空
     if(L->next==NULL){//判断头结点的Next指针域是否为NULL，如果为NULL，证明头结点后不存在数据
         return true;
     } else{
@@ -39,7 +39,7 @@ bool Empty(LinkList L){
 //bool Empty(LinkList L){
 //    return (L->next==NULL);
 //}
-bool LintNextInsert(LNode *p,int e){
+bool LintNextInsert(LNode *p,int e){//后插操作
     if(p==NULL){
         return false;
     }
@@ -58,7 +58,6 @@ bool LintInsert(LinkList &L,int i,int e){//指定插入操作
         return false;
     }
     LNode *p= GetElem(L,i-1);//按位查找封装
-    return LintNextInsert(p,e);//后插操作封装
 //    LNode *p;//指针p指向当前扫描到的结点
 //    int j=0;//当前p指向的是第几个结点
 //    p=L;//L指向头结点，头结点是第0个结点，不储存数据
@@ -66,6 +65,7 @@ bool LintInsert(LinkList &L,int i,int e){//指定插入操作
 //        p=p->next;
 //        j++;
 //    }
+    return LintNextInsert(p,e);//后插操作封装
 //    if(p==NULL){//如果P指针指向NULL，i值位序不合法
 //        return false;
 //    }
