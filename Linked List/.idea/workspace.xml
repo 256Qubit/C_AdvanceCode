@@ -11,11 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8646ed48-8b7c-4863-8951-019be106f5a3" name="默认变更列表" comment="Linked List(LintInsert) 提交">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="8646ed48-8b7c-4863-8951-019be106f5a3" name="默认变更列表" comment="Linked List(LintInsert) 提交" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +60,7 @@
       <updated>1692621349810</updated>
       <workItem from="1692621351130" duration="8000" />
       <workItem from="1692621380236" duration="1411000" />
-      <workItem from="1692624182117" duration="1241000" />
+      <workItem from="1692624182117" duration="1753000" />
     </task>
     <task id="LOCAL-00001" summary="Linked List 提交">
       <created>1692621945954</created>
@@ -80,7 +76,35 @@
       <option name="project" value="LOCAL" />
       <updated>1692622770323</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Linked List(LintInsert) 提交">
+      <created>1692625621588</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692625621588</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Linked List(LintInsert) 提交">
+      <created>1692625781579</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692625781579</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Linked List(LintInsert) 提交">
+      <created>1692625863381</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692625863381</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Linked List(LintInsert) 提交">
+      <created>1692625941743</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692625941743</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Linked List 提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linked List 提交" />
+    <MESSAGE value="Linked List(LintInsert) 提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linked List(LintInsert) 提交" />
   </component>
 </project>
