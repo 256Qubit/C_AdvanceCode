@@ -1,3 +1,0 @@
-C:/Users/Administrator/CLionProjects/uChain-Queue/cmake-build-debug/CMakeFiles/uChain_Queue.dir
-C:/Users/Administrator/CLionProjects/uChain-Queue/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Administrator/CLionProjects/uChain-Queue/cmake-build-debug/CMakeFiles/rebuild_cache.dir
