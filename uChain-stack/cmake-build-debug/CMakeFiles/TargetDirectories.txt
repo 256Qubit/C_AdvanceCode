@@ -1,0 +1,3 @@
+C:/Users/Administrator/CLionProjects/uChain-stack/cmake-build-debug/CMakeFiles/uChain_stack.dir
+C:/Users/Administrator/CLionProjects/uChain-stack/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Administrator/CLionProjects/uChain-stack/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -113,7 +113,7 @@ bool ListDelete(LinkList &L,int i,int &e){//删除指定位置的结点
     free(p);
     return true;
 }
-bool DeleteNode(LNode *p){
+bool DeleteNode(LNode *p){//
     if(p==NULL){
         return false;
     }
