@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.26)
-project(stack)
+project(Chain_Queue)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(stack main.cpp)
+add_executable(Chain_Queue main.cpp)

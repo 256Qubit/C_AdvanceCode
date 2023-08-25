@@ -1,49 +1,52 @@
 #include <stdio.h>
+
+int tag;
+
 #define MaxSize 10
 typedef struct {
     int data[MaxSize];
-    int top;
-}SqStack;
-void InitStack(SqStack &s){
-    s.top=-1;
+    int front,rear;
+}SqQueue;
+void InitQueue(SqQueue &Q){
+    Q.front=Q.rear=0;
 }
-bool StackEmpty(SqStack s){
-    if(s.top==-1){
-        return true;
-    } else{
+bool EnQueue(SqQueue &Q,int x){
+    if(Q.front==Q.rear&&tag==1){
         return false;
     }
+    Q.data[Q.rear]=x;
+    Q.rear=(Q.rear+1)%MaxSize;
+    return true;
+    tag=1;
 }
-bool Push(SqStack &s,int x){
-    if(s.top==MaxSize-1){
+bool DeQueue(SqQueue &Q,int &x){
+    if(Q.rear==Q.front&&tag==0){
         return false;
     }
-//    s.top=s.top+1;
-//    s.data[s.top]=x;
-    s.data[++s.top]=x;//先让top的值+1，然后再来使用top
+    x=Q.data[Q.front];
+    Q.front=(Q.front+1)%MaxSize;
+    return true;
+    tag=0;
+}
+bool GetHead(SqQueue Q,int &x){
+    if (Q.front==Q.rear&&tag==0){
+        return false;
+    }
+    x=Q.data[Q.front];
     return true;
 }
-bool Pop(SqStack &s,int &x){
-    if(s.top==-1){
-        return false;
-    }
-    x=s.data[s.top--];
-//    x=s.data[s.top];//栈顶元素先出栈
-//    s.top=s.top-1;//指针减1
-    return true;
+int SumQueue(SqQueue Q){
+    int sum;
+    sum=(Q.rear+MaxSize-Q.front)%MaxSize;
+    return sum;
 }
-bool GetTop(SqStack s,int &x){
-    if(s.top==-1){
-        return false;
-    }
-    x=s.data[s.top];
-    return true;
+bool QueueEmpty(SqQueue Q){
+    return (Q.front==Q.rear);
 }
-
 void test(){
-    SqStack s;
-    InitStack(s);
+    SqQueue Q;
 }
 int main() {
+    printf("Queue\n");
     return 0;
 }
