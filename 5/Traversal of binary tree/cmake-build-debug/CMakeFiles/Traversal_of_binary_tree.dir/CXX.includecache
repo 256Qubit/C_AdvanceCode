@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/3/advancecode/5/Traversal of binary tree/main.cpp
+stdio.h
+-
+stdlib.h
+-
+cassert
+-
+stdio.h
+-
+assert.h
+-
+stdlib.h
+-
+
