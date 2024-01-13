@@ -11,7 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8646ed48-8b7c-4863-8951-019be106f5a3" name="默认变更列表" comment="Linked List(LintInsert) 提交" />
+    <list default="true" id="8646ed48-8b7c-4863-8951-019be106f5a3" name="默认变更列表" comment="Linked List(LintInsert) 提交">
+      <change beforePath="$PROJECT_DIR$/../../5/Traversal of binary tree/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../5/Traversal of binary tree/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/untitled/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../5/untitled/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +25,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="2UIJqHFFdXEuCGkusPaWTnqnkar" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -38,7 +41,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Chain-Queue" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -68,6 +71,9 @@
       <workItem from="1692687511848" duration="693000" />
       <workItem from="1693053124151" duration="559000" />
       <workItem from="1693197667202" duration="175000" />
+      <workItem from="1696773939338" duration="121000" />
+      <workItem from="1697172340506" duration="279000" />
+      <workItem from="1697270557869" duration="141000" />
     </task>
     <task id="LOCAL-00001" summary="Linked List 提交">
       <created>1692621945954</created>

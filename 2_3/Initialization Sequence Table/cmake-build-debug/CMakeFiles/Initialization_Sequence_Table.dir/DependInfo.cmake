@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/3/advancecode/Initialization Sequence Table/main.cpp" "D:/3/advancecode/Initialization Sequence Table/cmake-build-debug/CMakeFiles/Initialization_Sequence_Table.dir/main.cpp.obj"
+  "D:/3/advancecode/2_3/Initialization Sequence Table/main.cpp" "D:/3/advancecode/2_3/Initialization Sequence Table/cmake-build-debug/CMakeFiles/Initialization_Sequence_Table.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/3/advancecode/Dynamic allocation of linear tables(C++)/main.cpp" "D:/3/advancecode/Dynamic allocation of linear tables(C++)/cmake-build-debug/CMakeFiles/Dynamic_allocation_of_linear_tables_C___.dir/main.cpp.obj"
+  "D:/3/advancecode/2_3/Dynamic allocation of linear tables(C++)/main.cpp" "D:/3/advancecode/2_3/Dynamic allocation of linear tables(C++)/cmake-build-debug/CMakeFiles/Dynamic_allocation_of_linear_tables_C___.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -38,7 +38,7 @@ void CreatInThread(ThreadTree T){
         }
     }
 }
-//找后继节点
+//中序线索化找后继节点
 ThreadNode *FirstNode(ThreadNode *p){
     while (p->ltag==0){
         p=p->lchild;
@@ -57,7 +57,7 @@ void InOrder(ThreadNode *T){
         visit1(p);
     }
 }
-//找前驱
+//中序线索化找前驱
 ThreadNode *LastNode(ThreadNode *p){
     while (p->rtag==0){
         p=p->rchild;

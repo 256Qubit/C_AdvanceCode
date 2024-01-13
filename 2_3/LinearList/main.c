@@ -32,6 +32,19 @@ void add(LinearList* list, int element) {
     list->size++;
 }
 
+//void add(LinearList* list,int element){
+//    if(list->size == list->capacity){
+//        int new_capacity == (list->capacity ==0) ? 1:list->capacity * 2;
+//        int* new_elements == (int*)realloc(list->elements,new_capacity*sizeof(int));
+//        if(new_capacity == NULL){
+//            printf("Failed\n");
+//            return;
+//        }
+//        list->elements=new_elements;
+//        list->capacity=new_capacity;
+//    }
+//}
+
 // 删除元素
 void removeElement(LinearList* list, int element) {
     int i;
@@ -73,6 +86,15 @@ int search(LinearList* list, int element) {
 
     return -1; // 返回-1表示未找到
 }
+//
+//int search_1(LinearList* list,int element){
+//    int i;
+//    for (i = 0; i <list->size ; i++) {
+//        if(list->elements[i] == element){
+//            return i;
+//        }
+//    }
+//}
 
 // 释放线性表占用的内存空间
 void freeList(LinearList* list) {

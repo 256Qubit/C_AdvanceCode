@@ -25,7 +25,7 @@ void testSLinkList(){
 }
 
 void test(){
-    SLinkList a;//其中a为数组名，等价于strcut Node a[MaxSize]表示定义了一个数组a其中最大长度为MaxSize=10
+    SLinkList a;//其中a为数组名，等价于struct Node a[MaxSize]表示定义了一个数组a其中最大长度为MaxSize=10
 //    struct Node a[MaxSize];
 }
 int main(){

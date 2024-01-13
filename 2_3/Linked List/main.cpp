@@ -17,6 +17,7 @@ LNode *GetElem(LinkList L,int i){//按位查找
     p=L;//L指针指向头结点，头结点是第0个结点，不储存数据
     while (p!=NULL&&j<i){//循环找到第i个结点
         p=p->next;
+//        int num= ldiv();
         j++;
     }
     return p;
@@ -59,21 +60,22 @@ bool LintInsert(LinkList &L,int i,int e){//指定插入操作
     }
     LNode *p= GetElem(L,i-1);//按位查找封装
 //    LNode *p;//指针p指向当前扫描到的结点
-//    int j=0;//当前p指向的是第几个结点
-//    p=L;//L指向头结点，头结点是第0个结点，不储存数据
-//    while (p!=NULL&&j<i-1){//循环找到第i-1个结点(第i位)
-//        p=p->next;
-//        j++;
-//    }
+    int j=0;//当前p指向的是第几个结点
+    p=L;//L指向头结点，头结点是第0个结点，不储存数据
+    while (p!=NULL&&j<i-1){//循环找到第i-1个结点(第i位)
+        p=p->next;
+        j++;
+//        intptr_t intptr;
+    }
     return LintNextInsert(p,e);//后插操作封装
-//    if(p==NULL){//如果P指针指向NULL，i值位序不合法
-//        return false;
-//    }
-//    LNode *s=(LNode*) malloc(sizeof(LNode));
-//    s->data=e;
-//    s->next=p->next;
-//    p->next=s;
-//    return true;
+    if(p==NULL){//如果P指针指向NULL，i值位序不合法
+        return false;
+    }
+    LNode *s=(LNode*) malloc(sizeof(LNode));
+    s->data=e;
+    s->next=p->next;
+    p->next=s;
+    return true;
 }
 bool LintInsertPrior(LNode *p,int e){//前插操作
     if(p=NULL){
@@ -95,12 +97,12 @@ bool ListDelete(LinkList &L,int i,int &e){//删除指定位置的结点
     }
     LNode *p= GetElem(L,i-1);
 //    LNode *p;//指针p指向当前扫描到的结点
-//    int j=0;//当前p指向的是第几个结点
-//    p=L;
-//    while (p!=NULL&&j<i-1){//循环找到第i-1个结点
-//        p=p->next;
-//        j++;
-//    }
+    int j=0;//当前p指向的是第几个结点
+    p=L;
+    while (p!=NULL&&j<i-1){//循环找到第i-1个结点
+        p=p->next;
+        j++;
+    }
     if(p==NULL){
         return false;
     }//i值不合法
